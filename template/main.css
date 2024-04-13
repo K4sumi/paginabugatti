@@ -10,7 +10,8 @@
 
 /* Video Parallax Section*/
 .ParallaxVideo {
-    height: 1000px;
+    height: 800px;
+    width: auto;
   }
   
   .ParallaxVideo video {
@@ -21,4 +22,11 @@
     top: 0;
     left: 0;
     z-index: -1;
+  }
+
+  .center {
+    display:table-cell; 
+    vertical-align:middle; 
+    width: 100%;
+    height: 100%;
   }
