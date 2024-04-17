@@ -24,15 +24,24 @@
 
 .column {
   float: left;
-  width: 20%;
-  padding-inline: 10px;
+  width: 250px;
+  margin: 20px;
+}
+
+.columnButton {
+  float: left;
+  width: 20px;
+  margin: 10px;
+}
+
+.caruselButton{
+  height:600px;
 }
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
   display: table;
-  clear: both;
+  width:100%;
 }
 
 /* Video Parallax Section*/
@@ -57,7 +66,7 @@
     align-items: center;
     /* text-align: center; */
     flex-direction: column;
-    width: 30%; 
+    width: 25%; 
     float:left; 
     height:100%; 
     color:white;
@@ -80,7 +89,7 @@
     align-items: center;
     /* text-align: center; */
     flex-direction: column;
-    width: 70%; 
+    width: 75%; 
     float:left; 
     height:100%; 
     color:white;
@@ -101,6 +110,11 @@
   }
 
   .brandTitle{
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .carModel{
     font-weight: bold;
     text-align: center;
   }
